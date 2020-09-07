@@ -1,0 +1,6 @@
+[
+    {"id":1,"name":"Almacén Genérico"},
+    {"id":2,"name":"Almacén de Producto Terminado"},
+    {"id":3,"name":"Almacén de Ventas"},
+    {"id":4,"name":"Almacén Producto en Proceso"}
+]
