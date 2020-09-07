@@ -46,9 +46,6 @@ function Paso3(props) {
     setSwitches({ ...switches, [event.target.name]: event.target.checked });
   };
 
-
-  console.log(paymentMethod)
-
   return (
     <div className={classes.paso}>
       <Grid container spacing={2} style={{maxWidth: '1080px', margin: '0 auto'}} justify='center'>
@@ -151,7 +148,7 @@ function Paso3(props) {
               <Select
                 labelId="payment-secondary-method-label"
                 id="payment-secondary-method"
-                value={paymentSecondaryMethod || ''}
+                value={paymentSecondaryMethod}
                 onChange={(event) => setPaymentSecondaryMethod(event.target.value)}
                 label="¿Cuál es el método de pago secundario?"
               >
