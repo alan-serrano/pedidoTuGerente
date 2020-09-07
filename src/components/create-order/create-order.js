@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import './create-order.scss';
 import { makeStyles } from '@material-ui/core';
 import styles from './create-order-styles';
@@ -56,12 +57,14 @@ function StepperComponent(props) {
       <div>
         {activeStep === steps.length ? (
           <div>
-            <Typography className={classes.instructions}>
-              All steps completed - you&apos;re finished
-            </Typography>
-            <Button onClick={handleReset} className={classes.button}>
-              Reset
-            </Button>
+            <Container maxWidth="md" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: '16px'}}>
+              <Typography className={classes.instructions}>
+                Se terminaron los pasos para crear un pedido
+              </Typography>
+              <Button onClick={handleReset} className={classes.button}>
+                Resetear
+              </Button>
+            </Container>
           </div>
         ) : (
           <div>
@@ -110,6 +113,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 function Pedido() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
+  const history = useHistory();
 
   // Step1 variables
   const [clients, setClients] = React.useState([]);
@@ -182,8 +186,8 @@ function Pedido() {
           Nuevo Pedido
         </Button>
         
-        <Button variant="contained" color="primary" onClick={handleClickOpen} >
-          Home
+        <Button variant="contained" color="primary" onClick={()=>history.push('/')} >
+          Inicio
         </Button>
       </div>
       <Dialog fullScreen open={open} onClose={handleClose} TransitionComponent={Transition}>
