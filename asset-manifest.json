@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/%7Brepo-name%7D/static/css/main.66d1dcdc.chunk.css",
-    "main.js": "/%7Brepo-name%7D/static/js/main.165ee8fc.chunk.js",
-    "main.js.map": "/%7Brepo-name%7D/static/js/main.165ee8fc.chunk.js.map",
-    "runtime-main.js": "/%7Brepo-name%7D/static/js/runtime-main.0ef58934.js",
-    "runtime-main.js.map": "/%7Brepo-name%7D/static/js/runtime-main.0ef58934.js.map",
-    "static/js/2.e0a7a1c5.chunk.js": "/%7Brepo-name%7D/static/js/2.e0a7a1c5.chunk.js",
-    "static/js/2.e0a7a1c5.chunk.js.map": "/%7Brepo-name%7D/static/js/2.e0a7a1c5.chunk.js.map",
-    "index.html": "/%7Brepo-name%7D/index.html",
-    "precache-manifest.34555500e51e93cad0b03844c0a38423.js": "/%7Brepo-name%7D/precache-manifest.34555500e51e93cad0b03844c0a38423.js",
-    "service-worker.js": "/%7Brepo-name%7D/service-worker.js",
-    "static/css/main.66d1dcdc.chunk.css.map": "/%7Brepo-name%7D/static/css/main.66d1dcdc.chunk.css.map",
-    "static/js/2.e0a7a1c5.chunk.js.LICENSE.txt": "/%7Brepo-name%7D/static/js/2.e0a7a1c5.chunk.js.LICENSE.txt"
+    "main.css": "/pedidoTuGerente/static/css/main.66d1dcdc.chunk.css",
+    "main.js": "/pedidoTuGerente/static/js/main.29b1a731.chunk.js",
+    "main.js.map": "/pedidoTuGerente/static/js/main.29b1a731.chunk.js.map",
+    "runtime-main.js": "/pedidoTuGerente/static/js/runtime-main.611ccf67.js",
+    "runtime-main.js.map": "/pedidoTuGerente/static/js/runtime-main.611ccf67.js.map",
+    "static/js/2.e0a7a1c5.chunk.js": "/pedidoTuGerente/static/js/2.e0a7a1c5.chunk.js",
+    "static/js/2.e0a7a1c5.chunk.js.map": "/pedidoTuGerente/static/js/2.e0a7a1c5.chunk.js.map",
+    "index.html": "/pedidoTuGerente/index.html",
+    "precache-manifest.f863848c3bf24ef7e56262cf2047042f.js": "/pedidoTuGerente/precache-manifest.f863848c3bf24ef7e56262cf2047042f.js",
+    "service-worker.js": "/pedidoTuGerente/service-worker.js",
+    "static/css/main.66d1dcdc.chunk.css.map": "/pedidoTuGerente/static/css/main.66d1dcdc.chunk.css.map",
+    "static/js/2.e0a7a1c5.chunk.js.LICENSE.txt": "/pedidoTuGerente/static/js/2.e0a7a1c5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0ef58934.js",
+    "static/js/runtime-main.611ccf67.js",
     "static/js/2.e0a7a1c5.chunk.js",
     "static/css/main.66d1dcdc.chunk.css",
-    "static/js/main.165ee8fc.chunk.js"
+    "static/js/main.29b1a731.chunk.js"
   ]
 }
