@@ -42,11 +42,33 @@ export const MTLocalization = {
   },
   body: {
     emptyDataSourceMessage: 'No hay registros para mostrar',
+    addTooltip: 'Añadir',
+    deleteTooltip: 'Eliminar',
+    editTooltip: 'Editar',
+    filterRow: {
+      filterTooltip: 'Filtrar'
+    },
+    editRow: {
+      deleteText:'¿Estás seguro de eliminar la fila?',
+      cancelTooltip: 'Cancelar',
+      saveTooltip: 'Guardar',
+    }
   },
   pagination: {
-    labelRowsSelect: 'Filas'
+    labelRowsSelect: 'Filas',
+    labelRowsPerPage: 'Filas por página',
+    firstAriaLabel: 'Primera página',
+    firstTooltip: 'Primera página',
+    previousAriaLabel: 'Anterior',
+    previousTooltip: 'Anterior',
+    nextAriaLabel: 'Siguiente',
+    nextTooltip: 'Siguiente',
+    lastAriaLabel: 'Última página',
+    lastTooltip: 'Última página'
   },
   toolbar: {
-
+    addRemoveColumns: 'Añadir o eliminar columnas',
+    searchTooltip: 'Buscar',
+    searchPlaceholder: 'Buscar'
   }
 }
